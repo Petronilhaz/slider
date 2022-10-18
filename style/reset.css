@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+:root {
+    --azul-cinza: hsl(240, 18%, 77%);
+    --azul-escuro: hsl(240, 38%, 20%);
+}
