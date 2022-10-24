@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider</title>
-    <link href="./scripts/index.js">
     <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/reset.css">
-    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="./src/style/index.css">
 </head>
 
 <body>
@@ -23,7 +22,9 @@
                     I'm now in the job of my dreams and so
                     exited about the future."
                 </p>
-                <p class="developer-name">Tanya Sinclair<span class="job">UX Enginer</span></p>
+                <div class="developer-container">
+                    <p class="developer-name">Tanya Sinclair</p><p class="job">UX Enginer</p>
+                </div>
             </div>
             <div class="profile-container">
                 <img class='profile-image' src="./src/images/image-tanya.jpg" alt="Developer">
@@ -36,6 +37,12 @@
         </div>
     </main>
 
+    <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Rafael Petronilha Andrade</a>.
+      </div> -->
+
+    <script type="module" src="./src/scripts/index.js"></script>
 </body>
 
 </html>

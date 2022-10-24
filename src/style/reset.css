@@ -9,4 +9,5 @@
 :root {
     --azul-cinza: hsl(240, 18%, 77%);
     --azul-escuro: hsl(240, 38%, 20%);
+    font-size: 62.5%;
 }
