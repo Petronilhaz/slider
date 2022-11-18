@@ -8,8 +8,6 @@ const discourse = document.getElementsByClassName("discourse")
 const devName = document.getElementsByClassName("developer-name")
 const devArea = document.getElementsByClassName("job")
 
-console.log(developerData[1].job)
-
 nextBtn.addEventListener('click', () => {
     avancar()
 })
